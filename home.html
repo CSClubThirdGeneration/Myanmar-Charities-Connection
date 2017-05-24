@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<title>Myanmar Charities Connection</title>
+<link rel="stylesheet" href="home.css"/>
+<script type="text/javascript">
+	var imagecount=1;
+var total=7;
+function slide(x)
+{
+	var Image=document.getElementById('img');
+	imagecount=imagecount+x;
+	if(imagecount>total){ imagecount=1;}
+	if(imagecount<1){imagecount=total;}
+	
+	Image.src="img"+imagecount+".jpeg";
+}
+
+</script>
+<div id="container">
+    <div id="head">
+	
+        <div class="fixedwidth">
+			<div id="logodiv"><img src="mc2.png"/>
+                
+            </div>
+
+                <h3><font color="blue"> Myanmar Charities Connection</font></h3>
+        </div>
+   </div>
+
+   <div id="menubar">
+		<div class="fixedwidth">
+			<div id="menudiv">
+				<ul>
+					<li><a href="home.html">Home</a></li>
+  					<li><a href="news.html">News</a></li>
+					<li><a href="project.html">Project</a>
+	       					<ul>
+									<li><a href="Edu.html">Education</a> </li>
+									<li><a href="Water.html">Water</a></li>
+									<li><a href="disabled.html">Disabled people/children</a></li>
+	       					</ul>
+					</li>
+					<li><a href="volunteer.html">Volunteer</a></li>
+					<li><a href="charities.html">Charities</a></li>
+					<li><a href="about.html">Myanmar</a></li>
+	  				<li><a href="Contact.html">About us</a></li>
+				</ul>
+			</div>
+        </div>
+   </div>
+ 
+<div id="content">
+	<div class="fixedwidth">
+           	<div id="picture">
+            	<img  src="img1.jpeg" id="img"/>
+            	<div id="left-holder"><img onclick="slide(-1)" src="left.png" class="left"/></div>
+            	<div id="right-holder"><img onclick="slide(1)" src="right.png" class="right"/></div>
+
+           	</div>       
+           	<div id="map">
+           		
+
+           		<a id="yui_3_10_0_1_1495466172511_209" class="thmb compImage  bmap ivmt-11 ivml-11 noicon cur-p kgplaces-map" href="#" target="_blank" title="Myanmar" data-beacon="https://geo.yahoo.com/t;_ylt=AwrBT9S7ACNZtPIA0l1XNyoA;_ylu=X3oDMTEyNHY5aGhmBGNvbG8DYmYxBHBvcwMxBHZ0aWQDQjM1MTFfMQRzZWMDc2M-"><img id="yui_3_10_0_1_1495466172511_208" class="s-img" alt="Myanmar" title="Myanmar" src="https://sgws2.maps.yahoo.com/mapimage?clat=19.25796&amp;q=Myanmar&amp;clon=96.683&amp;cache=n&amp;appid=gwsqa&amp;shape=Default&amp;style=alps&amp;shapestyle=candy&amp;imh=162&amp;mflags=MKY&amp;imi=location-purple-n-gws&amp;imw=504" height="162" width="504"></a>
+           	</div>
+           	<ul class="pro">
+           		<li>Education</li>
+           		<li>Water</li>
+           		<li>Disabled/people children</li>
+           </ul>
+	</div>
+</div>
+
+<div id="contact">
+	<div class="fixedwidth">
+                         <div id="contactdiv">
+		<p align="left"><span class="mc">MC</span><font color="blue">2</font></p>
+		<ul>
+		         <li><a href="home.html">Home</li>
+		         <li><a href="news.html">News</li>
+		         <li><a href="project.html">Project</li>
+		</ul>
+		<ul>
+		        <li><a href="volunteer.html">Volunteer</li>
+		         <li><a href="charities.html">Charities</li>
+		         <li><a href="about.html">About us</li>
+		</ul>
+		<ul>
+		        <li><a href="Contact.html">Contact</li>
+		</ul>
+	       </div>
+	       <div id="contactdiv1">
+    		<p align="left">Contact</p>
+		<ul class="c2">
+		<li>Email    :  kayt36108@gmail.com</li>
+		<li>call        :  0932086757</li>
+		<li>Address :  UCSY</li>
+		</ul>
+	</div>
+	
+	</div>
+	<div id="footer"><div id="fixedwidth"><p>@copyright by UCSY Dream Team</p></div></div>
+</div>
+</div>
+
+</body>
+</html>
